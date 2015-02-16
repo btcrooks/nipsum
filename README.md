@@ -1,4 +1,4 @@
 Nipsum
 ======
-Lorum Ipsum (dummy text) generator In Node.  
+Dummy text generator in Node.  
 *(N)ode.js + Lorum (ipsum) = Nipsum*
