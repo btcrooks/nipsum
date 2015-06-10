@@ -15,6 +15,9 @@ cli.main(function(args, options) {
     console.log(lipsum.newSentence(options.sentence));
   } else if (options.paragraph) {
     console.log(lipsum.newParagraph(options.paragraph))
+  } esle {
+      console.log('Usage: nipsum [OPTIONS] [ARGS]');
+      console.log("Run 'nipsum -h' for help");
   }
 });
 
