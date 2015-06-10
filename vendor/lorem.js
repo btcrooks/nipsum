@@ -140,6 +140,12 @@ var Lorem;
 
 })();
 
+exports.newWord = function(c) {
+  return Lorem.prototype.createText(c, Lorem.TYPE.WORD)
+};
 exports.newSentence = function(c) {
   return Lorem.prototype.createText(c, Lorem.TYPE.SENTENCE)
+};
+exports.newParagrap = function(c) {
+    return Lorem.prototype.createText(c, Lorem.TYPE.PARAGRAPH)
 };
