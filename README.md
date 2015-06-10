@@ -1,5 +1,5 @@
 # Nipsum
-**N**ode lorum **ipsum** allows you to generate words, sentences and paragraphs of dummy text in the command line.  
+**N**ode lorum **ipsum** allows you to generate dummy text in the command line.  
 
 ### Installation
 1) Download nipsum and navigate to the directory
