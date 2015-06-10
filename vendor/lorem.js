@@ -139,3 +139,7 @@ var Lorem;
     }
 
 })();
+
+exports.newSentence = function(c) {
+  return Lorem.prototype.createText(c, Lorem.TYPE.SENTENCE)
+};
