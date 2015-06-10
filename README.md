@@ -1,4 +1,8 @@
-Nipsum
-======
-Dummy text generator in Node.js  
-**N**ode.js Lorum **ipsum**
+# Nipsum
+
+**nipsum allows you to generate dummy text inside of the command line**  
+You can generate words, sentences and paragraphs.  
+
+## Getting Fancy :sunglasses: :sunglasses: 
+Pair `nipsum` with `pbcopy` to send text straight to your clipboard.
+
