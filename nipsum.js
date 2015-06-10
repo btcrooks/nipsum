@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-var lipsum = require('../vendor/lorem'),
+var lipsum = require('./vendor/lorem'),
     cli = require('cli');
 
 cli.parse({
