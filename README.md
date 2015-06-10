@@ -4,7 +4,8 @@
 ### Installation
 1) Download nipsum and navigate to the directory
 ```bash
-$ cd path/to/nipsum
+$ git clone https://github.com/btcrooks/nipsum.git
+$ cd nipsum
 ```
 2) Download dependencies
 ```bash
