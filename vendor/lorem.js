@@ -42,7 +42,8 @@ var Lorem;
                 for (var i = 0; i < count; i++) {
                     var paragraphLength = this.randomInt(10, 20);
                     var paragraph = this.createText(paragraphLength, Lorem.TYPE.SENTENCE);
-                    paragraphs.push('<p>'+paragraph+'</p>');
+                    // paragraphs.push('<p>'+paragraph+'</p>');
+                    paragraphs.push(paragraph);
                 }
                 return paragraphs.join('\n');
                 break;
@@ -146,6 +147,6 @@ exports.newWord = function(c) {
 exports.newSentence = function(c) {
   return Lorem.prototype.createText(c, Lorem.TYPE.SENTENCE)
 };
-exports.newParagrap = function(c) {
+exports.newParagraph = function(c) {
     return Lorem.prototype.createText(c, Lorem.TYPE.PARAGRAPH)
 };
