@@ -12,13 +12,13 @@ $ cd nipsum
 ```bash
 $ npm install
 ```
-3) Install nipsum globally (If at first you don't succeed, sudo and try agin :smile: )
+3) Install nipsum globally (If at first you don't succeed, sudo and try agin :smirk: )
 ```bash
 $ npm install -g
 ```
 
 ### Usage
-Currently, nupsum takes a single option followed by a single argument:
+Nipsum takes a single option followed by an argument:
 ```bash
 $ nipsum [OPTIONS] [ARGS]
 ```
