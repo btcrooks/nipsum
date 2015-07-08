@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-var lipsum = require('./vendor/lorem'),
+var lorem = require('./vendor/lorem'),
     cli = require('cli');
 
 cli.parse({
@@ -10,15 +10,13 @@ cli.parse({
 
 cli.main(function(args, options) {
   if (options.word){
-    console.log(lipsum.newWord(options.word));
+    console.log(lorem.newWord(options.word));
   } else if (options.sentence) {
-    console.log(lipsum.newSentence(options.sentence));
+    console.log(lorem.newSentence(options.sentence));
   } else if (options.paragraph) {
-    console.log(lipsum.newParagraph(options.paragraph))
-  } esle {
+    console.log(lorem.newParagraph(options.paragraph))
+  } else {
       console.log('Usage: nipsum [OPTIONS] [ARGS]');
       console.log("Run 'nipsum -h' for help");
   }
 });
-
-var nipsum;
