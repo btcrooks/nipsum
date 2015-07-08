@@ -12,7 +12,7 @@ $ cd nipsum
 ```bash
 $ npm install
 ```
-3) Install nipsum globally (If at first you don't succeed, sudo and try agin :smirk: )
+3) Install nipsum globally (If at first you don't succeed, sudo and try again :smirk: )
 ```bash
 $ npm install -g
 ```
