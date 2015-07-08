@@ -1,7 +1,6 @@
 # Nipsum
-**N**ode lorum **ipsum** allows you to generate dummy text in the command line.  
-Lorem.js Dummy Text/Image Generator jQuery and Native JS source code by Fatih Kadir Akın
-https://github.com/f
+**N**ode lorem **ipsum** allows you to generate dummy text in the command line.  
+Source code by Fatih Kadir Akın - https://github.com/f/loremjs
 
 ### Installation
 1) Download nipsum and navigate to the directory
