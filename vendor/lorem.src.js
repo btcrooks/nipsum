@@ -1,3 +1,9 @@
+/**
+ * Lorem.js Dummy Text/Image Generator jQuery and Native JS
+ *
+ * Fatih Kadir Akın: https://github.com/f
+ * Licensed under GNU
+**/
 var Lorem;
 (function() {
 
