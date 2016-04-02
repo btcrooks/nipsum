@@ -1,6 +1,6 @@
 {
   "name": "nipsum",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Nipsum allows you to generate words, sentences and paragraphs of dummy text in the command line.",
   "main": "nipsum.js",
   "dependencies": {
