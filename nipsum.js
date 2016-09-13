@@ -14,7 +14,7 @@ cli.main(function(args, options) {
   } else if (options.sentence) {
     console.log(lorem.newSentence(options.sentence));
   } else if (options.paragraph) {
-    console.log(lorem.newParagraph(options.paragraph))
+    console.log(lorem.newParagraph(options.paragraph));
   } else {
       console.log('Usage: nipsum [OPTIONS] [ARGS]');
       console.log("Run 'nipsum -h' for help");
