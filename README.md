@@ -1,6 +1,6 @@
 # Nipsum
 **N**ode **ipsum** allows you to generate dummy text in the command line.  
-Source code by Fatih Kadir Akın - https://github.com/f/loremjs
+Dummy text generator written by Fatih Kadir Akın - https://github.com/f/loremjs
 
 ### Installation
 1) Download nipsum and navigate to the directory
@@ -48,7 +48,6 @@ $ nipsum -p 5 | pbcopy
 ```
 
 ### Roadmap
-* Send text to the clipboard using a flag.
-* Add version flag.
-* Specify a number of characters to use.
-* Public npm package.
+[ ] Use a flag to send text to the clipboard.
+[ ] Generate by character count.
+[x] Publish on NPM. https://www.npmjs.com/package/nipsum
