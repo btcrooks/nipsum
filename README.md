@@ -1,5 +1,5 @@
 # Nipsum
-**N**ode lorem **ipsum** allows you to generate dummy text in the command line.  
+**N**ode **ipsum** allows you to generate dummy text in the command line.  
 Source code by Fatih Kadir Akın - https://github.com/f/loremjs
 
 ### Installation
