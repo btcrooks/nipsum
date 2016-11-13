@@ -36,12 +36,17 @@ Generate paragraphs:
 ```bash
 $ nipsum -p <count>
 ```
+you can alseo format text using `--format=«option»`:
+```bash
+$ nipsum -w «count» --format=caps
+$ nipsum -w «count» --format=titlecase
+```
 Help:
 ```bash
 $ nipsum -h
 ```
 
-### Getting Fancy :sunglasses: :sunglasses:
+### Getting Fancy :sunglasses:
 Pair `nipsum` with `pbcopy` to send text straight to your clipboard.  
 ```bash
 $ nipsum -p 5 | pbcopy
