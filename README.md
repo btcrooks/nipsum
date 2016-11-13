@@ -48,6 +48,6 @@ $ nipsum -p 5 | pbcopy
 ```
 
 ### Roadmap
-[ ] Use a flag to send text to the clipboard.
-[ ] Generate by character count.
-[x] Publish on NPM. https://www.npmjs.com/package/nipsum
+- [ ] Use a flag to send text to the clipboard.
+- [ ] Generate by character count.
+- [x] Publish on NPM. https://www.npmjs.com/package/nipsum
