@@ -20,7 +20,7 @@ $ npm install -g
 ### Usage
 Nipsum takes a single option followed by an argument:
 ```bash
-$ nipsum [OPTIONS] [ARGS]
+$ nipsum [OPTION] [ARGS]
 ```
 
 
@@ -36,7 +36,7 @@ Generate paragraphs:
 ```bash
 $ nipsum -p <count>
 ```
-you can alseo format text using `--format=«option»`:
+you can also format text using `--format=«option»`:
 ```bash
 $ nipsum -w «count» --format=caps
 $ nipsum -w «count» --format=titlecase
